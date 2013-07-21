@@ -1,0 +1,28 @@
+{
+  "name": "nodesapiens",
+  "version": "0.0.1",
+  "description": "WiringPi based Interface to Robosapiens on Raspberry Pi",
+  "main": "lib/sapiens.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darach/sapiens-js.git"
+  },
+  "keywords": [
+    "wiringPi",
+    "gpio",
+    "raspberry",
+    "pi",
+    "robotics",
+    "robosapiens"
+  ],
+  "author": "Darach Ennis",
+  "license": "MIT",
+  "gypfile": true,
+  "readmeFilename": "README.md"
+}
